@@ -1,0 +1,232 @@
+body{
+    font-family: sans-serif;
+    margin:0 ;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+#index
+
+#contenedor2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+#contenedor2 h2{
+    color: #FFFFFF;
+}
+
+.caja13{
+    border: 1px solid black;
+    height: 1500px;
+    width: 300px;
+    padding: 20px;
+    background-color: #002C48;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgdoctor {
+    width: 300px;
+}
+
+.caja2{
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    background-color: #0061A0;
+    float: left;
+}
+
+#contenedor2 img{
+    width: 100%;
+}
+
+#contenedor2 ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#contenedor2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contenedor2 a:hover{
+    color: orange;
+}
+
+p{
+    color: aliceblue;
+}
+
+.Fondo{
+
+	background-attachment: fixed;
+	margin-top: 0pxs;
+	background-position: center;
+}
+
+.cuadrados{
+
+	background-color: lightslategray;
+	width: 35%;
+	border-style: dashed;
+	border-width: 35%;
+	font-family: consolas;
+	background-position: center;
+}
+
+.nombre{
+    color: black;
+}
+
+footer{
+    background-color: lightblue;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-style: inset;
+    border-width: black;
+}
+
+.footer{
+    width: 100%;
+}
+
+.caja13{
+    width: 1700px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo{
+    color: aliceblue;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.primero{
+    height: 500px;
+    width: 500px;
+    background-color: darkcyan;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-color: black;
+    border-width: 35%;
+    border:2px solid;
+}
+
+.segundo{
+    height: 500px;
+    width: 500px;
+    background-color: deepskyblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-color: black;
+    border-width: 35%;
+    border:2px solid;
+}
+
+.tercero{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-color: black;
+    border-width: 35%;
+    border:2px solid;
+}
+
+.primero,.segundo,.tercero{
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.producto{
+   border-color: black;
+   border-width: 35%;
+   border:5px solid;
+}
+
+.precio{
+    text-decoration: solid;
+    color:azure;
+    text-align: center;
+    font-size: 25px;
+}
